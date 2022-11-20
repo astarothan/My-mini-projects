@@ -9,7 +9,7 @@ while(userGuess != randNumber):
     if(userGuess==randNumber):
         print("You guessed it right!")
     else:
-        if(userGuess>ran31dNumber):
+        if(userGuess>randNumber):
             print("You guessed it wrong! Enter a smaller number")
         else:
             print("You guessed it wrong! Enter a larger number")
